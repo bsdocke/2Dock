@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<settings>
+    <stage id="canvasbox" width="500" height="400" />
+    <fps>30</fps>
+    <player id="1">
+        <color>"#000000"</color>
+        <animations>
+            <left>
+                <img src="" frames=""/>
+                <img src="" frames=""/>
+            </left>
+            <right>
+                <img src="" frames=""/>
+                <img src="" frames=""/>
+            </right>
+            <jump>
+            	<img src="" frames=""/>
+            	<img src="" frames=""/>           	
+            </jump>
+            <dead>
+                <img src="" frames=""/>
+            </dead>
+        </animations> 
+    </player>
+</settings>

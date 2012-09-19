@@ -1,0 +1,32 @@
+<html>
+<head>
+
+<script type="text/javascript" src = "derivative.js" />
+</script>
+
+<title>Maths Testing Grounds</title>
+</head>
+
+<body>
+<h2>This is a heading</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<span id="result"></span>
+<script type="text/javascript">
+    var formula = function(x){
+        var res = x*x;
+        res += (3*x);
+        res += 5;
+        return res;
+        
+    };
+    
+    var res = centralDifference(1,0.1,0.0,formula);
+    var result = document.getElementById("result");
+    result.innerHTML = res;
+    
+</script>
+
+
+</body>
+</html>
